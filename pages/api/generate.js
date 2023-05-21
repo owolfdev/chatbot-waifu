@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   //   headers: {
   //     "content-type": "application/json",
   //     "X-Forwarded-For": "<user's ip>",
-  //     "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+  //     "X-RapidAPI-Key": process.env.IAMAI_API_KEY,
   //     "X-RapidAPI-Host": "iamai.p.rapidapi.com",
   //   },
   //   data: {
@@ -35,7 +35,7 @@ export default async function handler(req, res) {
   //   headers: {
   //     "content-type": "application/json",
   //     Accept: "application/json",
-  //     "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+  //     "X-RapidAPI-Key": process.env.HARLEY_CHATBOT_API_KEY,
   //     "X-RapidAPI-Host": "harley-the-chatbot.p.rapidapi.com",
   //   },
   //   data: {
@@ -98,7 +98,7 @@ export default async function handler(req, res) {
   //   url: "https://robomatic-ai.p.rapidapi.com/api",
   //   headers: {
   //     "content-type": "application/x-www-form-urlencoded",
-  //     "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+  //     "X-RapidAPI-Key": process.env.ROBOMATIC_API_KEY,
   //     "X-RapidAPI-Host": "robomatic-ai.p.rapidapi.com",
   //   },
   //   data: encodedParams,
@@ -118,7 +118,7 @@ export default async function handler(req, res) {
   //   url: "https://stable-diffusion-v2.p.rapidapi.com/stable-diffusion",
   //   params: { description: textInput },
   //   headers: {
-  //     "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+  //     "X-RapidAPI-Key": process.env.STABLE_DIFFUSION_API_KEY,
   //     "X-RapidAPI-Host": "stable-diffusion-v2.p.rapidapi.com",
   //   },
   // };
@@ -138,7 +138,7 @@ export default async function handler(req, res) {
   //     headers: {
   //       "content-type": "application/json",
   //       Type: "chatgpt4-chat",
-  //       "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+  //       "X-RapidAPI-Key": process.env.CHAT_GPT_API_KEY,
   //       "X-RapidAPI-Host": "chatgpt-open-ai-nlp.p.rapidapi.com",
   //     },
   //     data: {
