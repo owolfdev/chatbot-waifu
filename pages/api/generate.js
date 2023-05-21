@@ -68,7 +68,7 @@ export default async function handler(req, res) {
     },
     headers: {
       "content-type": "application/json",
-      "X-RapidAPI-Key": "386fef1f5fmsh847890c3de2e0e8p1830e1jsnd9139b90acdd",
+      "X-RapidAPI-Key": process.env.WAIFU_CHATBOT_API_KEY,
       "X-RapidAPI-Host": "waifu.p.rapidapi.com",
     },
     data: {},
